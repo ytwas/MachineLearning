@@ -310,6 +310,7 @@
       <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools-39.1.0-py3.7.egg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools.pth" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/venv/Lib/tcl8.5/init.tcl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/ROC.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/venv/Scripts/Activate.ps1" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/venv/Scripts/_asyncio.pyd" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/venv/Scripts/_bz2.pyd" afterDir="false" />
@@ -407,6 +408,7 @@
       <change afterPath="$PROJECT_DIR$/venv/Scripts/winsound.pyd" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/venv/Scripts/xlwings32-0.15.1.dll" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/venv/Scripts/xlwings64-0.15.1.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/gridsearch.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/venv/lasso.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/venv/pyvenv.cfg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/venv/randomforest.py" afterDir="false" />
@@ -424,7 +426,7 @@
         <entry file="file://$PROJECT_DIR$/venv/ridge.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="132">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -433,19 +435,40 @@
         <entry file="file://$PROJECT_DIR$/venv/lasso.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/randomforest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="e#0#67#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/ROC.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/venv/randomforest.py">
+        <entry file="file://$PROJECT_DIR$/venv/gridsearch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="e#0#67#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="176">
+              <caret line="8" column="50" lean-forward="true" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -474,6 +497,8 @@
         <option value="$PROJECT_DIR$/venv/ridge.py" />
         <option value="$PROJECT_DIR$/venv/lasso.py" />
         <option value="$PROJECT_DIR$/venv/randomforest.py" />
+        <option value="$PROJECT_DIR$/venv/ROC.py" />
+        <option value="$PROJECT_DIR$/venv/gridsearch.py" />
       </list>
     </option>
   </component>
@@ -489,40 +514,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="ml" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ml" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ml" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ml" type="462c0819:PsiDirectoryNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ml" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="ml" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (ml) &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="ml" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (ml) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="D:/Git/bin/git.exe" />
@@ -645,24 +637,41 @@
     <entry file="file://$PROJECT_DIR$/venv/ridge.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/lasso.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/randomforest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="198">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="e#0#67#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/ROC.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/gridsearch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="50" lean-forward="true" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
         </state>
       </provider>
     </entry>
